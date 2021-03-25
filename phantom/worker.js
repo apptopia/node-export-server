@@ -88,6 +88,7 @@ function loop() {
   page.settings.localToRemoteUrlAccessEnabled = true;
   page.settings.XSSAuditingEnabled = true;
   page.settings.resourceTimeout = 5000;
+  page.settings.webSecurityEnabled = false;
 
   // Do not allow iframes etc.
   page.navigationLocked = true;
